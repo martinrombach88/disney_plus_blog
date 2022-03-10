@@ -7,12 +7,13 @@ A user can:
 - Make a top ten list of movies or tv shows
 
 Add Movie
-A user can add a movie to the 
+A user can add a movie to the directory.
 
 Movie/Show post
 This post acts as a category/hub post for a movie.
 - image
 - title
+- release date
 - rotten tomatoes/imdb rating
 - where to watch (UK, South Korea)
 - description
