@@ -6,7 +6,6 @@ import { getReviews } from "./ReviewList";
 const Home = () => {
   let list = getReviews();
   let carouselList = [list[0], list[1], list[2]];
-  console.log(carouselList);
   return (
     <div className="mainContainer">
       <Header />

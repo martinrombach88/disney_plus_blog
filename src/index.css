@@ -57,70 +57,79 @@ h4 {
   padding-top: 2%;
 }
 
-.carouImage {
-  width: 800px;
-}
-
-.carouselContainer {
+.carousel {
   display: flex;
   position: relative;
   margin: auto;
+  height: 400px;
+  width: 80%;
 }
 
-.carouBtn {
+.carouselTrack {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.carouselTrackContainer {
+  height: 100%;
+}
+
+.carouselImage {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* .carouselImage:hover {
+  animation-name: fade;
+  animation-duration: 1.5s;
+} */
+
+.carouselBtn {
   position: absolute;
   font-size: 4em;
   color: white;
 }
 
-.carouPrevContainer,
-.carouNextContainer {
+.carouselPrevContainer,
+.carouselNextContainer {
   position: absolute;
   cursor: pointer;
-  padding-top: 18%;
-  padding-bottom: 29%;
-  width: 10%;
-}
-
-.carouPrevContainer {
-  position: absolute;
-  top: 0;
-  left: 0%;
+  padding-top: 20%;
+  padding-bottom: 35%;
   opacity: 0;
   width: 16%;
 }
 
-.carouPrev {
-  position: absolute;
-  left: 10%;
+.carouselPrevContainer {
+  top: 0%;
+  left: 0%;
 }
 
-.carouNextContainer {
-  position: absolute;
+.carouselPrev {
+  left: 15%;
+}
+
+.carouselNextContainer {
   top: 0%;
   right: 0%;
-  opacity: 0;
-  width: 16%;
 }
 
-.carouNext {
-  position: absolute;
-  right: 10%;
+.carouselNext {
+  right: 15%;
 }
 
-.carouNextContainer:hover,
-.carouPrevContainer:hover {
+.carouselNextContainer:hover,
+.carouselPrevContainer:hover {
   transition: 0.6s ease;
   opacity: 1;
 }
 
-.carouTitle {
-  margin: 0;
-  padding: 0;
+.carouselTitle {
   position: absolute;
-  bottom: 5px;
-  left: 1px;
-  width: 799px;
+  bottom: 0;
+  width: 100%;
   opacity: 0.9;
   background-color: rgb(26, 26, 80);
   color: white;

@@ -21,7 +21,6 @@
       */
 
 const HomeList = (props) => {
-  console.log(props);
   return <div className="homeLists"></div>;
 };
 
