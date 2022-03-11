@@ -1,5 +1,7 @@
 https://www.youtube.com/watch?v=cwVDJYbjypk 
 
+Example: https://jasonsmovieblog.com/
+
 Science Fiction Blog
 
 Mostly images, click on an image to reveal a page of that media. 
@@ -15,4 +17,35 @@ TV Shows: The Mandalorian, Book of Boba Fett, Star Trek DS9, Star Trek Voyager, 
 Movies: Star Wars, Dune, Guardians of the Galaxy, Deus Ex Machina, Ghost in the Shell, 
 
 Image paths? Add stuff in a similar way to Korean Project?
+DB made of image paths, then references to them from the image list.
 
+General
+A user can:
+- Make a watch list of movies or tv shows 
+- Make a blog post about a movie or tv show
+- Make a review of a tv show
+- Make a top ten list of movies or tv shows
+
+Add Movie
+A user can add a movie to the directory.
+
+Movie/Show post
+This post acts as a category/hub post for a movie.
+- image
+- title
+- release date
+- rotten tomatoes/imdb rating
+- where to watch (UK, South Korea)
+- description
+- related posts section underneath
+
+Watch list 
+- Make a list of things you want to watch (image and text only - click links to main post)
+- Check off whether you've watched them or not
+- Side bar/profile section on the website
+
+Blog/Review/Top ten
+- Allow a user to make a blog post about a movie/show
+- Review is text with a rating at the end (5 star component)
+- Top ten is a list of movie components (10) chosen by the user from existing movies.
+- Blog is a text post with the movie component at the start.

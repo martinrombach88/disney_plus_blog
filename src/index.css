@@ -1,13 +1,233 @@
-body {
+body,
+input,
+button {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: "Rajdhani", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+.mainContainer {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.contentContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.homeContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 5%;
+  margin-left: 5%;
+}
+
+.title {
+  display: flex;
+  flex-direction: row;
+  width: 40%;
+  margin: 0;
+  cursor: pointer;
+}
+
+.title h2,
+h4 {
+  padding: 1%;
+  margin: 1.5%;
+}
+
+.title h4 {
+  padding-top: 2%;
+}
+
+.carouImage {
+  width: 800px;
+}
+
+.carouselContainer {
+  display: flex;
+  position: relative;
+  margin: auto;
+}
+
+.carouBtn {
+  position: absolute;
+  font-size: 4em;
+  color: white;
+}
+
+.carouPrevContainer,
+.carouNextContainer {
+  position: absolute;
+  cursor: pointer;
+  padding-top: 18%;
+  padding-bottom: 29%;
+  width: 10%;
+}
+
+.carouPrevContainer {
+  position: absolute;
+  top: 0;
+  left: 0%;
+  opacity: 0;
+  width: 16%;
+}
+
+.carouPrev {
+  position: absolute;
+  left: 10%;
+}
+
+.carouNextContainer {
+  position: absolute;
+  top: 0%;
+  right: 0%;
+  opacity: 0;
+  width: 16%;
+}
+
+.carouNext {
+  position: absolute;
+  right: 10%;
+}
+
+.carouNextContainer:hover,
+.carouPrevContainer:hover {
+  transition: 0.6s ease;
+  opacity: 1;
+}
+
+.carouTitle {
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  bottom: 5px;
+  left: 1px;
+  width: 799px;
+  opacity: 0.9;
+  background-color: rgb(26, 26, 80);
+  color: white;
+}
+
+/* .homeImageTitle h4 {
+  padding-left: 2%;
+} */
+
+.homeLists {
+  display: flex;
+  justify-content: space-between;
+}
+
+.homeLists ul,
+ul li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.homeButtons {
+  display: flex;
+  justify-content: space-between;
+  width: 30%;
+}
+
+.watchList {
+  font-size: 1.4em;
+  text-align: center;
+}
+
+.watchList h3 {
+  margin: 5%;
+}
+
+.watchListImage {
+  width: 180px;
+}
+
+.watchList ul,
+ul li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.watchList ul li {
+  cursor: pointer;
+  margin-top: 10%;
+}
+
+.watchList ul li:hover {
+  background-color: lightgrey;
+}
+
+.watchList p {
+  margin: 0;
+  padding: 0;
+}
+
+.mediaContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.mediaTitle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+}
+
+.mediaImage {
+  width: 320px;
+}
+
+.mediaPost {
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.mediaWatch {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2%;
+}
+
+.mediaWatch p {
+  margin-top: 1%;
+  margin-bottom: 1%;
+  margin-left: 0;
+  padding: 0;
+}
+
+.mediaWatch ul {
+  margin: 0;
+  padding: 0;
+}
+
+.buttonList {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.buttonList button {
+  margin-left: 1%;
+  margin-right: 1%;
 }
