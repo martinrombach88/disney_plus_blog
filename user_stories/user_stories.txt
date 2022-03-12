@@ -1,3 +1,32 @@
+User Stories
+
+Carousel:-
 A user can:
-- See a homepage with images and reviews
-- Navigate from the main image, clicking review pages 
+- Click the carousel right button and see a new article image
+- Click the image on the carousel and be redirected to a review
+
+Cards:-
+A user can:
+- Hover over a card and see an effect similar to the original website
+- Click on a card and be redirected to that article
+
+Create Buttons:-
+A user can:
+- Click create article buttons and be redirected to the create correct article page based
+the button they chose (review, top ten)
+
+Article Page:-
+A user can:
+- Upload an image or select an image from a visual list of images (like the avatar selection page)
+- Enter text to make the article
+- Submit the article
+
+If the article is a review, a user can:
+- Click a star rating component to add a star rating to the review
+
+If the article is a top ten, a user can:
+- Upload or select up to ten images for the article's 10 content features
+- Enter text divided by those 10 images
+
+Search:
+A user can search a term and return a list of articles based on their search term

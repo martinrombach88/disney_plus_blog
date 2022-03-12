@@ -35,6 +35,7 @@ body {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  margin-top: 1%;
   margin-right: 5%;
   margin-left: 5%;
 }
@@ -72,16 +73,15 @@ body {
 }
 
 .carousel {
+  margin-top: 2%;
   display: flex;
   justify-content: center;
   position: relative;
-  margin: auto;
-  height: 80vh;
-  width: 100%;
+  height: 400px;
 }
 
 .carousel__Image {
-  width: 100%;
+  width: 1000px;
   height: 100%;
   object-fit: cover;
 }
@@ -108,27 +108,27 @@ body {
 .carousel__NextContainer {
   position: absolute;
   cursor: pointer;
-  padding-top: 25%;
-  padding-bottom: 35%;
+  padding-top: 15%;
+  padding-bottom: 25%;
   opacity: 0;
-  width: 20%;
+  width: 10%;
   top: 0%;
 }
 
 .carousel__PrevContainer {
-  left: -20%;
+  left: -10%;
 }
 
 .carousel__Prev {
-  left: 15%;
+  left: 0%;
 }
 
 .carousel__NextContainer {
-  right: -20%;
+  right: -10%;
 }
 
 .carousel__Next {
-  right: 30%;
+  right: 20%;
 }
 
 .carousel__NextContainer:hover,
