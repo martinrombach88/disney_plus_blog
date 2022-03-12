@@ -18,10 +18,10 @@ const Carousel = () => {
   }
 
   return (
-    <>
-      <div className="carousel">
-        {articleList.map((slide, index) => {
-          return (
+    <div className="carousel">
+      {articleList.map((slide, index) => {
+        return (
+          <>
             <div
               className={index === current ? "slide active" : "slide"}
               key={index}
@@ -39,16 +39,16 @@ const Carousel = () => {
                 </div>
               )}
             </div>
-          );
-        })}
-        <div className="carousel__PrevContainer" onClick={prevSlide}>
-          <a className="carousel__Btn carousel__Prev">&#10094;</a>
-        </div>
-        <div className="carousel__NextContainer" onClick={nextSlide}>
-          <a className="carousel__Btn carousel__Next">&#10095;</a>
-        </div>
+          </>
+        );
+      })}
+      <div className="carousel__PrevContainer" onClick={prevSlide}>
+        <a className="carousel__Btn carousel__Prev">&#10094;</a>
       </div>
-    </>
+      <div className="carousel__NextContainer" onClick={nextSlide}>
+        <a className="carousel__Btn carousel__Next">&#10095;</a>
+      </div>
+    </div>
   );
 };
 

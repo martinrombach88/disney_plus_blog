@@ -2,14 +2,14 @@ body,
 input,
 button {
   margin: 0;
-  font-family: "Rajdhani", sans-serif;
+  font-family: "Fredoka", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+body {
+  background-image: url("https://static-assets.bamgrid.com/product/disneyplus/images/background.dc67869b698f6c927aae59c68d9dda46.png");
+  color: white;
 }
 
 .mainContainer {
@@ -39,6 +39,12 @@ code {
   margin-left: 5%;
 }
 
+.header__homeButtons {
+  display: flex;
+  justify-content: space-between;
+  width: 40%;
+}
+
 .header__title {
   display: flex;
   flex-direction: row;
@@ -47,13 +53,31 @@ code {
   cursor: pointer;
 }
 
+.header__title h3 {
+  padding-left: 2%;
+  text-align: center;
+}
+
+.header__logo {
+  width: 14%;
+}
+
+.header__btn,
+.header__input {
+  font-size: 1em;
+  background: none;
+  color: white;
+  font-family: "Fredoka", sans-serif;
+  border: none;
+}
+
 .carousel {
-  background-color: black;
   display: flex;
+  justify-content: center;
   position: relative;
   margin: auto;
   height: 80vh;
-  width: 130vh;
+  width: 100%;
 }
 
 .carousel__Image {
@@ -63,13 +87,13 @@ code {
 }
 
 .slide {
-  transition: 200ms translate ease-in;
-  transition-delay: 200ms;
-  opacity: 0;
-  inset: 0;
+  transform: scale(1);
+  transition: transform 0.5s;
+  transform: translatex(100%);
 }
 
 .slide.active {
+  transform: translatex(0%);
   opacity: 1;
   transition-delay: 0ms;
 }
@@ -92,7 +116,7 @@ code {
 }
 
 .carousel__PrevContainer {
-  left: 0%;
+  left: -20%;
 }
 
 .carousel__Prev {
@@ -100,11 +124,11 @@ code {
 }
 
 .carousel__NextContainer {
-  right: 0%;
+  right: -20%;
 }
 
 .carousel__Next {
-  right: 15%;
+  right: 0%;
 }
 
 .carousel__NextContainer:hover,
@@ -124,10 +148,6 @@ code {
   cursor: pointer;
 }
 
-/* .homeImageTitle h4 {
-  padding-left: 2%;
-} */
-
 .homeLists {
   display: flex;
   justify-content: space-between;
@@ -138,12 +158,6 @@ ul li {
   margin: 0;
   padding: 0;
   list-style: none;
-}
-
-.header__homeButtons {
-  display: flex;
-  justify-content: space-between;
-  width: 30%;
 }
 
 .watchList {
