@@ -15,7 +15,6 @@ ReactDOM.render(
           <Route index element={<Home />} />
           <Route path="error" element={<Error />} />
           <Route path="media" element={<ViewMediaItem />} />
-          <Route path="review" element={<ViewReview />} />
         </Route>
       </Routes>
     </BrowserRouter>

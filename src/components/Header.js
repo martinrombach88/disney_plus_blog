@@ -4,11 +4,10 @@ const Header = () => {
   const navigate = useNavigate();
   return (
     <nav className="header">
-      <div className="title" onClick={() => navigate("/")}>
+      <div className="header__title" onClick={() => navigate("/")}>
         <h2>Sci Fi and Superheroes</h2>
-        <h4>An interactive blog</h4>
       </div>
-      <div className="homeButtons">
+      <div className="header__homeButtons">
         <button>CREATE REVIEW</button>
         <button>Create Top Ten</button>
         <input
