@@ -10,6 +10,7 @@ button {
 body {
   background-image: url("https://static-assets.bamgrid.com/product/disneyplus/images/background.dc67869b698f6c927aae59c68d9dda46.png");
   color: white;
+  overflow: hidden;
 }
 
 .mainContainer {
@@ -86,13 +87,25 @@ body {
   object-fit: cover;
 }
 
-.slide {
+.slide__prev {
   transform: scale(1);
-  transition: transform 0.5s;
+  transition: transform 1.2s;
+  transform: translatex(-100%);
+}
+
+.slide__next {
+  transform: scale(1);
+  transition: transform 1.2s;
   transform: translatex(100%);
 }
 
-.slide.active {
+.slide__prev.active {
+  transform: translatex(0%);
+  opacity: 1;
+  transition-delay: 0ms;
+}
+
+.slide__next.active {
   transform: translatex(0%);
   opacity: 1;
   transition-delay: 0ms;

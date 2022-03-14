@@ -4,12 +4,15 @@ import { articleList } from "./articleList";
 
 const Carousel = () => {
   const [current, setCurrent] = useState(0);
+  const [savedSlide, setSavedSlide] = useState("");
   const length = articleList.length;
   const nextSlide = () => {
+    setSavedSlide("slide__next");
     setCurrent(current === length - 1 ? 0 : current + 1);
   };
 
   const prevSlide = () => {
+    setSavedSlide("slide__prev");
     setCurrent(current === 0 ? length - 1 : current - 1);
   };
 
@@ -23,7 +26,14 @@ const Carousel = () => {
         return (
           <>
             <div
-              className={index === current ? "slide active" : "slide"}
+              className={
+                index === current
+                  ? savedSlide + " active"
+                  : index + 1 === current ||
+                    (index === articleList.length - 1 && index !== current + 1)
+                  ? "slide__prev"
+                  : "slide__next"
+              }
               key={index}
             >
               {index === current && (
