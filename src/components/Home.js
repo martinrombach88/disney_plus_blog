@@ -6,11 +6,9 @@ const Home = () => {
   return (
     <div className="mainContainer">
       <Header />
-      <div className="contentContainer">
-        <div className="homeContainer">
-          <Carousel />
-          <HomeList />
-        </div>
+      <div className="homeContainer">
+        <Carousel />
+        <HomeList />
       </div>
     </div>
   );
