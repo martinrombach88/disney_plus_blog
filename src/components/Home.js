@@ -1,14 +1,15 @@
 import Carousel from "./Carousel";
 import Header from "./Header";
-import HomeList from "./HomeList";
+import Cards from "./Cards";
+import { articleList } from "./articleList";
 
 const Home = () => {
   return (
     <div className="mainContainer">
       <Header />
       <div className="homeContainer">
-        <Carousel />
-        <HomeList />
+        <Carousel list={articleList} />
+        <Cards list={articleList} />
       </div>
     </div>
   );

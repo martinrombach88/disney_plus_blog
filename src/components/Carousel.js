@@ -1,10 +1,10 @@
 import React, { useState } from "react";
 import ReactDOM from "react-dom";
-import { articleList } from "./articleList";
-import { useLocation, useNavigate } from "react-router-dom";
-//
 
-const Carousel = () => {
+import { useLocation, useNavigate } from "react-router-dom";
+
+const Carousel = ({ list }) => {
+  let articleList = list;
   const navigate = useNavigate();
   const [current, setCurrent] = useState(0);
   const [savedSlide, setSavedSlide] = useState("");
@@ -51,7 +51,9 @@ const Carousel = () => {
             )}
             {index === current && (
               <div key={index} className="carousel__Title">
-                <p>{slide.title}</p>
+                <p>
+                  {slide.type} - {slide.title}
+                </p>
               </div>
             )}
           </div>

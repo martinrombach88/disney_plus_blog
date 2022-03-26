@@ -1,12 +1,12 @@
 export const articleList = [
   {
     id: 0,
-    type: "review",
+    type: "Review",
     imagePath: "/assets/images/mando.jpg",
-    cardImagePath: "/assets/images/mando.jpg",
+    cardImagePath: "/assets/images/mandoCard.jpg",
     bgImagePath: "/assets/images/mandoBg.jpg",
     bgImagePath2: "/assets/images/mandoBg2.png",
-    title: "Review - The Mandalorian (English)",
+    title: "The Mandalorian (English)",
     text1:
       "Star Wars has had its ups and downs since its original release in the 1970s. But Iron Man director Jon Favreau's The Mandalorian is widely regarded one of the best pieces of Star Wars media since that time. This is easy to agree with as a reviewer. This film outdoes JJ Abrams and Rian Johnson recent sequel trilogy, creating something refreshing yet familiar. The show follows a bounty hunter who is part of group of warriors called the Mandalorians. A lone gunman, he flies around the galaxy trapping aliens who've committed crimes in his ship and taking them in for bounty money. However one of his bounties gives him a new purpose when it's clear this bounty hasn't committed a crime.",
     text2:
@@ -17,12 +17,12 @@ export const articleList = [
   },
   {
     id: 1,
-    type: "review",
+    type: "리뷰",
     imagePath: "/assets/images/mando.jpg",
-    cardImagePath: "/assets/images/mando.jpg",
+    cardImagePath: "/assets/images/mandoCard.jpg",
     bgImagePath: "/assets/images/mandoBg.jpg",
     bgImagePath2: "/assets/images/mandoBg2.png",
-    title: "리뷰 - 만달로리안 (한국어)",
+    title: "만달로리안 (한국어)",
 
     text1:
       "스타워즈는 1970년대 초창기 이후 우여곡절이 있었습니다. 하지만 아이언맨 감독 존 파브로의 <만달로리안>은 그 이후로 스타워즈 미디어 최고의 작품 중 하나로 널리 인정받고 있습니다. 평론가로서 쉽게 동의할 수 있는 부분입니다. . 이 영화는 JJ Abrams와 Rian Johnson의 최근 속편 3부작을 능가하여 신선하면서도 친숙한 것을 만듭니다. 이 영화는 Mandalorians라고 불리는 전사 그룹의 일원인 현상금 사냥꾼을 따라갑니다. 고독한 총잡이는 은하계를 날아다니며 외계인을 가둡니다. 그의 배에서 범죄를 저질렀고 현상금을 받기 위해 가져갔습니다. 그러나 그의 현상금 중 하나는 이 현상금이 범죄를 저지르지 않았다는 것이 분명할 때 그에게 새로운 목적을 제공합니다.",
@@ -34,12 +34,12 @@ export const articleList = [
   },
   {
     id: 2,
-    type: "review",
+    type: "Review",
     imagePath: "/assets/images/shield.jpg",
-    cardImagePath: "/assets/images/shield.jpg",
+    cardImagePath: "/assets/images/shieldCard.jpg",
     bgImagePath: "/assets/images/shieldBg.jpg",
     bgImagePath2: "/assets/images/shieldBg2.jpg",
-    title: "Review - Agents of Shield (English)",
+    title: "Agents of Shield (English)",
     text1:
       "Agents of Shield was a show I initially didn't want to watch. A show based on the revival of a dead character seemed annoying. I was one of many who thought that Coulson should have stayed dead at the end of Avengers 1. But I went with it. Now a season later, I'm convinced by what they were trying to do. Fun, flashy and full of action, this show really keeps you going. The dialogue can be cheesy, but the secret agent plot and all the moving parts make for great TV.",
     text2:
@@ -50,12 +50,12 @@ export const articleList = [
   },
   {
     id: 3,
-    type: "review",
+    type: "리뷰",
     imagePath: "/assets/images/shield.jpg",
-    cardImagePath: "/assets/images/shield.jpg",
+    cardImagePath: "/assets/images/shieldCard.jpg",
     bgImagePath: "/assets/images/shieldBg.jpg",
     bgImagePath2: "/assets/images/shieldBg2.jpg",
-    title: "리뷰 - 에이전트 오브 쉴드 (한국어)",
+    title: "에이전트 오브 쉴드 (한국어)",
     text1:
       "에이전트 오브 쉴드는 처음에 보고 싶지 않은 쇼였습니다. 죽은 캐릭터의 부활을 기반으로 한 쇼는 짜증나는 것 같았습니다. 나는 콜슨이 어벤져스 1이 끝날 때 죽은 채로 있어야 한다고 생각하는 많은 사람들 중 하나였습니다. 하지만 나는 그것을 갔습니다. 이제 시즌이 지나고, 나는 그들이 하려고 하는 것을 확신하게 되었습니다. 재미있고, 화려하고, 액션으로 가득 찬 이 쇼는 정말로 당신을 계속 보게 만듭니다. 대화는 진부할 수 있지만 비밀 요원의 음모와 모든 움직이는 부품이 훌륭한 TV를 만듭니다.",
     text2:
@@ -66,10 +66,10 @@ export const articleList = [
   },
   {
     id: 4,
-    type: "top-ten",
-    title: "Top Ten - Disney Plus Comedy Favorites (English)",
+    type: "Top Ten",
+    title: "Disney Plus Comedy Favorites (English)",
     imagePath: "/assets/images/comedy.png",
-    cardImagePath: "/assets/images/comedy.jpg",
+    cardImagePath: "/assets/images/comedyCard.png",
     entry10: {
       entryNum: 10,
       bgImagePath: "/assets/images/muppets.jpg",
@@ -133,10 +133,10 @@ export const articleList = [
   },
   {
     id: 5,
-    type: "top-ten",
-    title: "상위 10개 - Disney + 코미디 즐겨찾기(한국어)",
+    type: "상위 10개",
+    title: "Disney + 코미디 즐겨찾기(한국어)",
     imagePath: "/assets/images/comedy.png",
-    cardImagePath: "/assets/images/comedy.jpg",
+    cardImagePath: "/assets/images/comedyCard.png",
     entry10: {
       entryNum: 10,
       bgImagePath: "/assets/images/muppets.jpg",

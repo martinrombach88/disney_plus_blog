@@ -71,6 +71,7 @@ body {
 
 .carousel {
   margin-top: 2%;
+  margin-bottom: 8%;
   display: flex;
   justify-content: center;
   position: relative;
@@ -157,18 +158,6 @@ body {
   padding-left: 2%;
   cursor: pointer;
   font-size: 1.8em;
-}
-
-.homeLists {
-  display: flex;
-  justify-content: space-between;
-}
-
-.homeLists ul,
-ul li {
-  margin: 0;
-  padding: 0;
-  list-style: none;
 }
 
 .watchList {
@@ -305,4 +294,38 @@ ul li {
   margin: 0;
   padding: 0.5%;
   font-size: 2.2em;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.cards__Card {
+  margin: 1%;
+  display: block;
+  position: relative;
+  background-color: rgb(43, 48, 65);
+  width: 285px;
+}
+
+.cards__Image {
+  cursor: pointer;
+  width: 285px;
+  height: 285px;
+  object-fit: cover;
+  margin: 0;
+}
+
+.cards__Title {
+  opacity: 0.9;
+  color: white;
+  cursor: pointer;
+  font-size: 1.1em;
+  margin: 0;
+}
+
+.cards__Title p {
+  margin: 0;
 }

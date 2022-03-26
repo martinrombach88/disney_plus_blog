@@ -13,7 +13,7 @@ const ViewReview = () => {
   const whiteStar = <span>&#9734;</span>;
   const stars = [];
 
-  if (articleItem.type === "review") {
+  if (articleItem.type === "Review" || articleItem.type === "리뷰") {
     for (let i = 0; i < 5; i++) {
       if (i < articleItem.rating) {
         stars.push(blackStar);
@@ -38,7 +38,7 @@ const ViewReview = () => {
     );
   }
 
-  if (articleItem.type === "top-ten") {
+  if (articleItem.type === "Top Ten" || articleItem.type === "상위 10개") {
     return (
       <div className="mainContainer">
         <Header />
