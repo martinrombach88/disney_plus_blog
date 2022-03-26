@@ -1,6 +1,7 @@
 Disney Plus CRUD Blog
 
-A hypothetical project for Disney Plus, where I create a brand authentic blog to promote the service. Styling and features based on Brit.co and the Disney + desktop site. 
+A hypothetical project for Disney Plus, where I create a brand authentic blog to promote the service. Styling and features based on the Disney + desktop site and Brit.co's formatting. 
+
 Brit.co - https://www.brit.co/
 Disney Plus - https://www.disneyplus.com/home (account required)
 
