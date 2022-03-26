@@ -1,8 +1,6 @@
 Disney Plus CRUD Blog
 
-I'm a huge fan of science fiction and fantasy, and Disney's Marvel and Star Wars properties have been big favourites. I've been interested in making a project from my hobbies, and since becoming a subscriber this project seemed to take root. This blog is my attempt to clone the interface of Disney +, but with a twist. I've created a blog at the same time.
-
-Built in React and with a focus on visual design, I challenge you to compare this website to Disney + itself. It was made to imitate the brand styling, as thought Disney made it themselves.
+A hypothetical project for Disney Plus, where I create a brand authentic blog to promote the service. Styling and features based on Brit.co and the Disney + desktop site. 
 
 With this blog, users can:
 
