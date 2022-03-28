@@ -58,15 +58,22 @@ body {
   width: 14%;
 }
 
-.header__btn,
-.header__input,
-.article__btn,
-.article__input {
+.header__Btn,
+.header__Input,
+.article__Btn,
+.article__Input,
+.review__Input {
   font-size: 1em;
   background: none;
   color: white;
   font-family: "Fredoka", sans-serif;
   border: none;
+  cursor: pointer;
+}
+
+.header__Btn:active,
+.article__Btn:active {
+  transform: translateY(10%);
 }
 
 .carousel {
@@ -328,4 +335,42 @@ ul li {
 
 .cards__Title p {
   margin: 0;
+}
+
+.review {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.review p {
+  margin: 2%;
+  padding: 2%;
+  font-size: 1.5em;
+  line-height: 1.5em;
+}
+
+.review__Image {
+  display: flex;
+  flex-direction: column;
+  height: 600px;
+  width: 900px;
+  background-color: black;
+  opacity: 0.5;
+  background-size: cover;
+  justify-content: center;
+  border-radius: 5%;
+  margin: 2% 0%;
+  overflow: hidden;
+}
+
+.review__Input {
+  text-align: start;
+  margin-left: 5%;
+  height: 400px;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: rgb(43, 48, 65, 0.9);
 }

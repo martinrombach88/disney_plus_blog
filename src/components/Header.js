@@ -14,17 +14,22 @@ const Header = () => {
       </div>
       <div className="header__homeButtons">
         <input
-          className="header__input"
+          className="header__Input"
           type="text"
           name="search"
           id="blogSearch"
           placeholder="Search for posts"
           autoComplete="off"
         />
-        <button className="header__btn">Create Review</button>
-        <button className="header__btn">Create Top Ten</button>
+        <button
+          className="header__Btn"
+          onClick={() => navigate("createReview")}
+        >
+          Create Review
+        </button>
+        <button className="header__Btn">Create Top Ten</button>
 
-        <button className="header__btn">Watchlist</button>
+        <button className="header__Btn">Watchlist</button>
       </div>
     </nav>
   );

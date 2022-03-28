@@ -31,7 +31,7 @@ const ViewReview = () => {
           <ArticleCard articleItem={articleItem} cardStyle="reviewRight" />
           <ArticleSummary articleItem={articleItem} stars={stars} />
           <div className="article__Btns">
-            <button className="article__btn">Add to Watchlist</button>
+            <button className="article__Btn">Add to Watchlist</button>
           </div>
         </div>
       </div>
@@ -95,7 +95,7 @@ const ViewReview = () => {
             entry={articleItem.entry1}
           />
           <div className="article__Btns">
-            <button className="article__btn">Add to Watchlist</button>
+            <button className="article__Btn">Add to Watchlist</button>
           </div>
         </div>
       </div>
