@@ -10,7 +10,7 @@ const Header = () => {
           className="header__logo"
           src="https://static-assets.bamgrid.com/product/disneyplus/images/logo.1a56f51c764022ee769c91d894d44326.svg"
         ></img>
-        <h3>Unofficial Blog</h3>
+        <h3>Official Blog</h3>
       </div>
       <div className="header__homeButtons">
         <input

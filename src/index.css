@@ -1,15 +1,17 @@
 body,
 input,
-button {
+button,
+textarea {
   margin: 0;
   font-family: "Fredoka", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  color: white;
 }
 
 body {
   background-image: url("https://static-assets.bamgrid.com/product/disneyplus/images/background.dc67869b698f6c927aae59c68d9dda46.png");
-  color: white;
+
   overflow-x: hidden;
 }
 
@@ -167,40 +169,6 @@ body {
   font-size: 1.8em;
 }
 
-.watchList {
-  font-size: 1.4em;
-  text-align: center;
-}
-
-.watchList h3 {
-  margin: 5%;
-}
-
-.watchListImage {
-  width: 180px;
-}
-
-.watchList ul,
-ul li {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-
-.watchList ul li {
-  cursor: pointer;
-  margin-top: 10%;
-}
-
-.watchList ul li:hover {
-  background-color: lightgrey;
-}
-
-.watchList p {
-  margin: 0;
-  padding: 0;
-}
-
 .article {
   display: flex;
   flex-direction: column;
@@ -230,19 +198,23 @@ ul li {
   align-items: flex-end;
 }
 
-.article__Text {
+.article__Text,
+.reviewTextArea {
   width: 50%;
   padding-right: 2%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   background-color: rgb(43, 48, 65, 0.9);
+  color: white;
 }
-.article__TextLeft {
+.article__TextLeft,
+.review__TextAreaBorderLeft {
   border-top-right-radius: 10%;
   border-bottom-right-radius: 10%;
 }
-.article__TextRight {
+.article__TextRight,
+.review__TextAreaBorderRight {
   border-top-left-radius: 10%;
   border-bottom-left-radius: 10%;
 }
@@ -343,34 +315,42 @@ ul li {
   align-items: center;
 }
 
-.review p {
-  margin: 2%;
-  padding: 2%;
+.review p,
+textarea {
   font-size: 1.5em;
   line-height: 1.5em;
 }
 
-.review__Image {
+.review__Section {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  align-items: center;
   height: 600px;
   width: 900px;
-  background-color: black;
-  opacity: 0.5;
+  background-color: rgb(120, 120, 120);
   background-size: cover;
-  justify-content: center;
   border-radius: 5%;
   margin: 2% 0%;
   overflow: hidden;
+  opacity: 0.8;
 }
 
-.review__Input {
-  text-align: start;
-  margin-left: 5%;
-  height: 400px;
-  width: 400px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+.review__SectionRight {
+  justify-content: flex-end;
+}
+
+.review__SectionTextArea {
+  padding: 4%;
+  opacity: 0.9;
+  height: 500px;
+  width: 35vw;
+  max-width: 100%;
+  word-break: break-all;
   background-color: rgb(43, 48, 65, 0.9);
+  border-style: none;
+  resize: none;
+}
+
+.review__Image {
+  margin: 0 5%;
 }
